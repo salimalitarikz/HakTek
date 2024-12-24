@@ -158,22 +158,22 @@ main > #index_part_3 > #index_part_3_content {
   align-content: center;
   gap: 1.5rem;
 }
-main > #index_part_3 > #index_part_3_content > div {
+main > #index_part_3 > #index_part_3_content > a {
   width: 100%;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-main > #index_part_3 > #index_part_3_content > div img {
+main > #index_part_3 > #index_part_3_content > a img {
   width: 5rem;
   aspect-ratio: 1/1;
   border-radius: 0.3rem;
 }
-main > #index_part_3 > #index_part_3_content > div > span {
+main > #index_part_3 > #index_part_3_content > a > span {
   width: 60%;
   padding: 0.5rem;
 }
-main > #index_part_3 > #index_part_3_content > div i::before {
+main > #index_part_3 > #index_part_3_content > a i::before {
   font-size: 1.2rem;
   color: #747474;
 }

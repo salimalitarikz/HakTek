@@ -202,11 +202,13 @@ main{
                 }
 
                 >span{
-                    width: 60%;
+                    width: 50%;
                     padding: .5rem;
                 }
 
+                i{  margin-left: auto;margin-right: 1.5rem;}
                 i::before{
+                  
                     font-size:1.2rem ;
                     color: $text3;
                 }
@@ -271,6 +273,93 @@ main{
         }
     }
     
+    >#index_part_4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        >.img_wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                width: 100%;
+            }
+
+            svg{
+                width: 80%;
+                fill: $text3;
+            }
+        }
+
+        >h1{
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        
+    }
+
+    >#index_part_5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        >span{
+            font-weight: 600;
+            color: $accent1;
+        }
+
+        >h1{
+            font-size: 2rem;
+        }
+
+        >.index_part_5_list{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            >.list_item{
+                display: flex;
+                align-items: flex-start;
+                padding: 2rem 1rem;
+                gap: 1rem;
+                border-bottom: 1px solid $text3;
+                padding-bottom: 4rem;
+
+                &:nth-last-child(1){
+                    border-bottom: unset;
+                }
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+
+                    >img{
+                        width: 50%;
+                    }
+
+                    >div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5rem;
+                        >h2{
+                            font-size: 1rem;
+                            font-weight: 600;
+                        }
+
+                        >p{
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -278,4 +367,59 @@ main{
 footer{
     width: 100%;
     height: 60vh;
+    background-color: #000;
+    padding: 1rem;
+    color: $bg1;
+    >h1{
+        font-size: 3.2rem;
+        color: $bg1;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    >#footer_content{
+        border-top: 1px solid $text3;
+        padding: .5rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        >#footer_header{
+            >span{
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: $bg1;
+            }
+        }
+
+        >#footer_links{
+            width: 100%;
+            display: flex;
+            gap: 1rem;
+
+            >div{
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                >a{
+                    color: $text3;
+                }
+
+                >span{
+                    color: #b42a00;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        >#footer_footer{
+            >p{
+                width: 100%;
+                color: $text3;
+                font-size: .9rem;
+            }
+        }
+    }
 }

@@ -170,15 +170,136 @@ main > #index_part_3 > #index_part_3_content > a img {
   border-radius: 0.3rem;
 }
 main > #index_part_3 > #index_part_3_content > a > span {
-  width: 60%;
+  width: 50%;
   padding: 0.5rem;
+}
+main > #index_part_3 > #index_part_3_content > a i {
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 main > #index_part_3 > #index_part_3_content > a i::before {
   font-size: 1.2rem;
   color: #747474;
 }
+main > #index_part_4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+main > #index_part_4 > .img_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main > #index_part_4 > .img_wrapper img {
+  width: 100%;
+}
+main > #index_part_4 > .img_wrapper svg {
+  width: 80%;
+  fill: #747474;
+}
+main > #index_part_4 > h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+main > #index_part_5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main > #index_part_5 > span {
+  font-weight: 600;
+  color: #ff3c00;
+}
+main > #index_part_5 > h1 {
+  font-size: 2rem;
+}
+main > #index_part_5 > .index_part_5_list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main > #index_part_5 > .index_part_5_list > .list_item {
+  display: flex;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  border-bottom: 1px solid #747474;
+  padding-bottom: 4rem;
+}
+main > #index_part_5 > .index_part_5_list > .list_item:nth-last-child(1) {
+  border-bottom: unset;
+}
+main > #index_part_5 > .index_part_5_list > .list_item > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main > #index_part_5 > .index_part_5_list > .list_item > div > img {
+  width: 50%;
+}
+main > #index_part_5 > .index_part_5_list > .list_item > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main > #index_part_5 > .index_part_5_list > .list_item > div > div > h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+main > #index_part_5 > .index_part_5_list > .list_item > div > div > p {
+  width: 60%;
+}
 
 footer {
   width: 100%;
   height: 60vh;
+  background-color: #000;
+  padding: 1rem;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer > h1 {
+  font-size: 3.2rem;
+  color: #f5f5f5;
+}
+footer > #footer_content {
+  border-top: 1px solid #747474;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer > #footer_content > #footer_header > span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+footer > #footer_content > #footer_links {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+footer > #footer_content > #footer_links > div {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer > #footer_content > #footer_links > div > a {
+  color: #747474;
+}
+footer > #footer_content > #footer_links > div > span {
+  color: #b42a00;
+  font-weight: 300;
+}
+footer > #footer_content > #footer_footer > p {
+  width: 100%;
+  color: #747474;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
